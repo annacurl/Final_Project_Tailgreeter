@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <style>
+      @font-face {
+        font-family: "SFPro-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5efe6eb8e9407760a5475b2d/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "DIN2014-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4f73227d3628000a7a5938/.32231.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5edf595338fd193aa7acadbb/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Arial-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/6072e4bb20b949255a0bdc4c/fonts/adobethai-bold.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "Helvetica-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5eae8edb379f4b2f41f99ab5/Helvetica_33244fbeea10f093ae87de7a994c3697.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Europa-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c5187824fe4f300099ea24b/.15528.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5f0f0fe71911555ed50ab8f4/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Arial-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/606bf418fd1c31b298fc5b40/fonts/fontsfree-net-arial-bold.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/6016a8ccd818bfccfc598e61/fonts/fontsfree-net-sfprodisplay-light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SegoeUI-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b1e8d8e336c4b0009507857/segoeui.ttf") format("truetype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+
+      @font-face {
+        font-family: "SFPro-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5efe6eb8e9407760a5475b2d/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "DIN2014-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4f73227d3628000a7a5938/.32231.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5edf595338fd193aa7acadbb/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Arial-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/6072e4bb20b949255a0bdc4c/fonts/adobethai-bold.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "Helvetica-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5eae8edb379f4b2f41f99ab5/Helvetica_33244fbeea10f093ae87de7a994c3697.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Europa-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c5187824fe4f300099ea24b/.15528.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5f0f0fe71911555ed50ab8f4/SF-Pro.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Arial-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/606bf418fd1c31b298fc5b40/fonts/fontsfree-net-arial-bold.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SFPro-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/6016a8ccd818bfccfc598e61/fonts/fontsfree-net-sfprodisplay-light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SegoeUI-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b1e8d8e336c4b0009507857/segoeui.ttf") format("truetype");
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .arial-bold-big-stone-10px {
+        color: var(--big-stone);
+        font-family: var(--font-family-arial-bold);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .arial-regular-normal-silver-14px {
+        color: var(--silver-2);
+        font-family: var(--font-family-arial-regular);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .border-1px-silver {
+        border: 1px solid var(--silver);
+      }
+      .border-1px-silver-2 {
+        border: 1px solid var(--silver-2);
+      }
+      .europa-bold-big-stone-18px {
+        color: var(--big-stone);
+        font-family: var(--font-family-europa-bold);
+        font-size: var(--font-size-xxl);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .helvetica-regular-normal-onyx-14px {
+        color: var(--onyx);
+        font-family: var(--font-family-helvetica-regular);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .segoeui-regular-normal-black-8px {
+        color: var(--black);
+        font-family: var(--font-family-segoeui-regular);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 400;
+      }
+      .sfpro-bold-big-stone-10px {
+        color: var(--big-stone);
+        font-family: var(--font-family-sfpro-bold);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .sfpro-bold-big-stone-12px {
+        color: var(--big-stone);
+        font-family: var(--font-family-sfpro-bold);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 700;
+      }
+      .sfpro-medium-big-stone-10px {
+        color: var(--big-stone);
+        font-family: var(--font-family-sfpro-medium);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .sfpro-medium-chicago-10px {
+        color: var(--chicago);
+        font-family: var(--font-family-sfpro-medium);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .sfpro-medium-white-10px {
+        color: var(--white);
+        font-family: var(--font-family-sfpro-medium);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .sfpro-medium-white-12px {
+        color: var(--white);
+        font-family: var(--font-family-sfpro-medium);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 500;
+      }
+      .sfpro-medium-white-8px {
+        color: var(--white);
+        font-family: var(--font-family-sfpro-medium);
+        font-size: var(--font-size-s);
+        font-style: normal;
+        font-weight: 500;
+      }
+      :root {
+        --big-stone: rgba(27, 37, 61, 1);
+        --black: rgba(0, 0, 0, 0.545);
+        --chicago: rgba(88, 88, 88, 1);
+        --font-family-arial-bold: "Arial-Bold", Helvetica;
+        --font-family-arial-regular: "Arial-Regular", Helvetica;
+        --font-family-europa-bold: "Europa-Bold", Helvetica;
+        --font-family-helvetica-regular: "Helvetica-Regular", Helvetica;
+        --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+        --font-family-sfpro-bold: "SFPro-Bold", Helvetica;
+        --font-family-sfpro-medium: "SFPro-Medium", Helvetica;
+        --font-size-l: 12px;
+        --font-size-m: 10px;
+        --font-size-s: 8px;
+        --font-size-xl: 14px;
+        --font-size-xxl: 18px;
+        --onyx: rgba(52, 54, 56, 1);
+        --silver: rgba(191, 191, 191, 1);
+        --silver-2: rgba(192, 192, 193, 1);
+        --white: rgba(255, 255, 255, 1);
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="home" />
+    <div class="container-center-horizontal">
+      <div class="home screen">
+        <div class="overlap-group1-C61RwL">
+          <div class="bars-status-bar-ight-status-bar-RH0WJ5">
+            <div class="battery-8fWME2">
+              <img class="shape-0xdsWN" src="img/shape-11@1x.png" />
+              <img class="shape-Xl8W44" src="img/shape-12@1x.png" />
+              <img class="shape-MYXG94" src="img/shape-13@1x.png" />
+            </div>
+            <img class="shape-8fWME2" src="img/shape-10@1x.png" />
+            <div class="cellular-connection-8fWME2"></div>
+            <div class="bars-time-black-8fWME2">
+              <img class="background-nfqWRg" src="img/background-1@1x.png" />
+              <div class="x-time-nfqWRg helvetica-regular-normal-onyx-14px">9:41</div>
+            </div>
+          </div>
+          <div class="tailgreeter-RH0WJ5">TAILGREETER</div>
+          <div class="navigation-bar-RH0WJ5">
+            <div class="rectangle-68-1jzpCK"></div>
+            <div class="rectangle-69-1jzpCK"></div>
+          </div>
+        </div>
+        <div class="overlap-group-C61RwL">
+          <img class="mng00744-4eduM0" src="img/mng00744@1x.png" />
+          <div class="search-4eduM0"></div>
+          <img class="path-652-4eduM0" src="img/path-652@1x.png" />
+          <div class="rectangle-1470-4eduM0"></div>
+          <div class="find-a-tailgate-4eduM0">Find a Tailgate</div>
+          <div class="ex-chicago-bears-4eduM0">ex. Chicago Bears</div>
+          <div class="search-BJQsbv"></div>
+          <div class="rectangle-1478-4eduM0"></div>
+          <div class="covid19-questio-tailgates-safe-4eduM0">
+            COVID:19 questions and how we are keeping tailgates safe
+          </div>
+          <div class="navigation-bar-4eduM0">
+            <div class="rectangle-68-GAj34K"></div>
+            <div class="rectangle-69-GAj34K"></div>
+            <div class="menu-GAj34K"><img class="union-4-uSsonm" src="img/union-4-1@1x.png" /></div>
+          </div>
+        </div>
+        <div class="nearby-events-C61RwL europa-bold-big-stone-18px">Nearby Events</div>
+        <div class="flex-row-C61RwL">
+          <div class="overlap-group2-dXBp89">
+            <img class="rectangle-1471-zUA2mT" src="img/rectangle-1471@1x.png" />
+            <div class="rectangle-1479-zUA2mT"></div>
+            <div class="bears-vs-chiefs-gate-experience-zUA2mT sfpro-medium-white-12px">
+              Bears vs Chiefs All-Inclusive <br />Tailgate Experience
+            </div>
+            <div class="chicago-il-zUA2mT sfpro-medium-white-8px">Chicago IL</div>
+          </div>
+          <div class="overlap-group5-dXBp89">
+            <div class="bears-vs-chiefs-gate-experience-Rh39WR sfpro-medium-white-12px">
+              Bears vs Chiefs All-Inclusive <br />Tailgate Experience
+            </div>
+            <div class="chicago-il-Rh39WR sfpro-medium-white-8px">Chicago IL</div>
+            <img class="rectangle-1471-Rh39WR" src="img/rectangle-1471-1@1x.png" />
+            <img class="path-653-Rh39WR" src="img/path-653@1x.png" />
+            <div class="packers-vstailgate-experience-Rh39WR sfpro-medium-white-12px">
+              Packers vs.<br />Tailgate Experience
+            </div>
+            <div class="chicago-il-wxfbzu sfpro-medium-white-8px">Chicago IL</div>
+          </div>
+        </div>
+        <div class="overlap-group3-C61RwL">
+          <img class="dsc2479-eSNWXa" src="img/dsc-2479@1x.png" />
+          <div class="rectangle-1481-eSNWXa"></div>
+          <div class="do-you-have-ext-eet-new-friends-eSNWXa sfpro-medium-white-10px">
+            Do you have extra spots at your tailgate?<br />Want to make some cash and meet new friends?
+          </div>
+          <div class="host-a-tailgate-eSNWXa">Host a tailgate!</div>
+          <div class="rectangle-1482-eSNWXa"></div>
+          <div class="get-started-eSNWXa sfpro-medium-big-stone-10px">Get Started</div>
+        </div>
+        <div class="new-to-tailgating-C61RwL europa-bold-big-stone-18px">New to Tailgating?</div>
+        <div class="what-to-expect-eter-experience-C61RwL sfpro-medium-big-stone-10px">
+          What to expect at your first TAILGREETER experience.
+        </div>
+        <div class="overlap-group4-C61RwL">
+          <div class="rectangle-1483-cYXVq0"></div>
+          <img class="group-4-cYXVq0" src="img/group-4@1x.png" />
+          <div class="group-5-cYXVq0">
+            <img class="path-20-eFcZ4b" src="img/path-20@1x.png" />
+            <img class="path-21-eFcZ4b" src="img/path-21@1x.png" />
+            <img class="path-22-eFcZ4b" src="img/path-22@1x.png" />
+            <img class="path-23-eFcZ4b" src="img/path-23@1x.png" />
+            <img class="path-24-eFcZ4b" src="img/path-24@1x.png" />
+          </div>
+        </div>
+        <div class="latest-blog-posts-C61RwL europa-bold-big-stone-18px">Latest Blog Posts</div>
+        <div class="flex-row-VMr6Om">
+          <div class="overlap-group6-BdpSxK">
+            <img class="screen-shot-202-15-at-70157-pm-JbO6OY" src="img/screen-shot-2021-04-15-at-7-01-57-pm@1x.png" />
+            <img class="rectangle-1502-JbO6OY" src="img/rectangle-1502@1x.png" />
+            <div class="perfect-gameday-salsa-JbO6OY sfpro-medium-white-10px">Perfect Gameday Salsa</div>
+          </div>
+          <div class="overlap-group7-BdpSxK">
+            <img class="screen-shot-202-15-at-70830-pm-XxpA5s" src="img/screen-shot-2021-04-15-at-7-08-30-pm@1x.png" />
+            <img class="rectangle-1504-XxpA5s" src="img/rectangle-1504@1x.png" />
+            <div class="delicious-dips-and-sauces-XxpA5s sfpro-medium-white-10px">Delicious Dips and Sauces</div>
+          </div>
+        </div>
+        <img class="line-10-C61RwL" src="img/line-10-1@1x.png" />
+        <div class="group-19-C61RwL">
+          <div class="component-33-4-ebBR7z">
+            <div class="home-fhSbbQ">Home</div>
+            <img class="iconmonstr-home-thin-fhSbbQ" src="img/iconmonstr-home-thin@1x.png" />
+          </div>
+          <div class="component-34-4-ebBR7z">
+            <div class="inbox-fftmUc segoeui-regular-normal-black-8px">Inbox</div>
+            <img class="iconmonstr-mail-thin-fftmUc" src="img/iconmonstr-mail-thin-1@1x.png" />
+          </div>
+          <div class="component-35-4-ebBR7z">
+            <div class="my-events-ynAcX2 segoeui-regular-normal-black-8px">My Events</div>
+            <img class="iconmonstr-calendar-thin-ynAcX2" src="img/iconmonstr-calendar-thin-1@1x.png" />
+          </div>
+          <div class="component-37-4-ebBR7z">
+            <div class="profile-3WppY5 segoeui-regular-normal-black-8px">Profile</div>
+            <img class="iconmonstr-user-male-thin-3WppY5" src="img/iconmonstr-user-male-thin-1@1x.png" />
+          </div>
+          <div class="component-36-4-ebBR7z">
+            <img class="iconmonstr-bookmark-thin-6slTYB" src="img/iconmonstr-bookmark-thin-1@1x.png" />
+            <div class="saved-6slTYB segoeui-regular-normal-black-8px">Saved</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

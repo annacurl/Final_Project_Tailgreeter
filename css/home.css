@@ -1,0 +1,946 @@
+/* screen - home */
+
+.home {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1718px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+.home .background-nfqWRg {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.home .bars-status-bar-ight-status-bar-RH0WJ5 {
+  background-color: transparent;
+  background-image: url(../img/background-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+.home .bars-time-black-8fWME2 {
+  background-color: transparent;
+  height: 18px;
+  left: 7px;
+  position: absolute;
+  top: calc(42.31% - 8px);
+  width: 54px;
+}
+.home .battery-8fWME2 {
+  background-color: transparent;
+  bottom: calc(46.94% - 5px);
+  height: 11px;
+  position: absolute;
+  right: 15px;
+  width: 24px;
+}
+.home .bears-vs-chiefs-gate-experience-Rh39WR {
+  background-color: transparent;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .bears-vs-chiefs-gate-experience-zUA2mT {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 142px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .cellular-connection-8fWME2 {
+  background-color: transparent;
+  background-image: url(../img/shape-14@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  bottom: calc(47.00% - 5px);
+  height: 11px;
+  position: absolute;
+  right: calc(17.97% - 3px);
+  width: 17px;
+}
+.home .chicago-il-Rh39WR {
+  background-color: transparent;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 136px;
+  width: 116px;
+}
+.home .chicago-il-wxfbzu {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 136px;
+  width: 116px;
+}
+.home .chicago-il-zUA2mT {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 116px;
+}
+.home .component-33-4-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 21px;
+}
+.home .component-34-4-ebBR7z {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: calc(22.78% - 5px);
+  position: absolute;
+  top: 4px;
+  width: 22px;
+}
+.home .component-35-4-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  left: calc(48.61% - 18px);
+  position: absolute;
+  top: 0px;
+  width: 37px;
+}
+.home .component-36-4-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: calc(25.28% - 6px);
+  top: 0px;
+  width: 23px;
+}
+.home .component-37-4-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 23px;
+}
+.home .covid19-questio-tailgates-safe-4eduM0 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SFPro-Light', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 13px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .delicious-dips-and-sauces-XxpA5s {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 121px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .do-you-have-ext-eet-new-friends-eSNWXa {
+  background-color: transparent;
+  height: auto;
+  left: 52px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 61px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .dsc2479-eSNWXa {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 418px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 342px;
+}
+.home .ex-chicago-bears-4eduM0 {
+  background-color: transparent;
+  color: var(--silver-2);
+  font-family: 'SFPro-Light', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 421px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 239px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .find-a-tailgate-4eduM0 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SFPro-Bold', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 408px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  top: 196px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .flex-row-C61RwL {
+  align-items: center;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 204px;
+  justify-content: flex-start;
+  margin-right: -243px;
+  margin-top: 7px;
+  min-width: 600px;
+  position: relative;
+  width: auto;
+}
+.home .flex-row-VMr6Om {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 146px;
+  justify-content: flex-start;
+  margin-right: -121px;
+  margin-top: 14px;
+  min-width: 478px;
+  position: relative;
+  width: auto;
+}
+.home .get-started-eSNWXa {
+  background-color: transparent;
+  height: auto;
+  left: 142px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 106px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .group-19-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 39px;
+  margin-left: 16.0px;
+  margin-top: 11px;
+  position: relative;
+  width: 288px;
+}
+.home .group-4-cYXVq0 {
+  background-color: transparent;
+  height: 103px;
+  left: 95px;
+  object-fit: cover;
+  position: absolute;
+  top: 51px;
+  width: 79px;
+}
+.home .group-5-cYXVq0 {
+  background-color: transparent;
+  background-image: url(../img/path-19@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 112px;
+  left: 169px;
+  position: absolute;
+  top: 42px;
+  width: 53px;
+}
+.home .home-fhSbbQ {
+  background-color: transparent;
+  bottom: -2px;
+  color: rgba(144,22,22,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.home .host-a-tailgate-eSNWXa {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SFPro-Bold', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 28px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .iconmonstr-bookmark-thin-6slTYB {
+  background-color: transparent;
+  height: 20px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 10px);
+}
+.home .iconmonstr-calendar-thin-ynAcX2 {
+  background-color: transparent;
+  height: 20px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 17px);
+}
+.home .iconmonstr-home-thin-fhSbbQ {
+  background-color: transparent;
+  height: 20px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 3px);
+}
+.home .iconmonstr-mail-thin-fftmUc {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.home .iconmonstr-user-male-thin-3WppY5 {
+  background-color: transparent;
+  height: 20px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 5px);
+}
+.home .inbox-fftmUc {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+.home .latest-blog-posts-C61RwL {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-left: 33px;
+  margin-top: 35px;
+  min-height: 20px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 224px;
+}
+.home .line-10-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-top: 44px;
+  object-fit: cover;
+  position: relative;
+  width: 390px;
+}
+.home .menu-GAj34K {
+  background-color: transparent;
+  bottom: calc(30.77% - 5px);
+  height: 16px;
+  left: 16px;
+  position: absolute;
+  width: 16px;
+}
+.home .mng00744-4eduM0 {
+  background-color: transparent;
+  height: 326px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 489px;
+}
+.home .my-events-ynAcX2 {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.home .navigation-bar-4eduM0 {
+  background-color: transparent;
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 173px;
+  width: 375px;
+}
+.home .navigation-bar-RH0WJ5 {
+  background-color: transparent;
+  height: 68px;
+  left: 1px;
+  position: absolute;
+  top: 27px;
+  width: 375px;
+}
+.home .nearby-events-C61RwL {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-left: 33px;
+  margin-top: 34px;
+  min-height: 20px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 224px;
+}
+.home .new-to-tailgating-C61RwL {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-left: 33px;
+  margin-top: 24px;
+  min-height: 20px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 224px;
+}
+.home .overlap-group-C61RwL {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 326px;
+  margin-left: -367px;
+  margin-top: 4px;
+  position: relative;
+  width: 767px;
+}
+.home .overlap-group1-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 95px;
+  margin-right: 4.0px;
+  position: relative;
+  width: 376px;
+}
+.home .overlap-group2-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 184px;
+  margin-bottom: 4.0px;
+  position: relative;
+  width: 244px;
+}
+.home .overlap-group3-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 418px;
+  margin-top: 18px;
+  position: relative;
+  width: 342px;
+}
+.home .overlap-group4-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 196px;
+  margin-top: 12px;
+  position: relative;
+  width: 324px;
+}
+.home .overlap-group5-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 204px;
+  margin-left: 14px;
+  position: relative;
+  width: 342px;
+}
+.home .overlap-group6-BdpSxK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 146px;
+  position: relative;
+  width: 222px;
+}
+.home .overlap-group7-BdpSxK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 146px;
+  margin-left: 10px;
+  position: relative;
+  width: 246px;
+}
+.home .packers-vstailgate-experience-Rh39WR {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .path-20-eFcZ4b {
+  background-color: transparent;
+  bottom: 1px;
+  height: 84px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  width: calc(100.00% - 7px);
+}
+.home .path-21-eFcZ4b {
+  background-color: transparent;
+  height: 30px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 17px;
+}
+.home .path-22-eFcZ4b {
+  background-color: transparent;
+  height: 12px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(35.19% - 5px);
+  top: calc(27.77% - 3px);
+  width: 15px;
+}
+.home .path-23-eFcZ4b {
+  background-color: transparent;
+  height: 14px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(28.58% - 5px);
+  top: calc(23.87% - 3px);
+  width: 18px;
+}
+.home .path-24-eFcZ4b {
+  background-color: transparent;
+  height: 2px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(42.53% - 2px);
+  top: 23.07%;
+  width: 4px;
+}
+.home .path-652-4eduM0 {
+  background-color: transparent;
+  height: 315px;
+  left: 367px;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 390px;
+}
+.home .path-653-Rh39WR {
+  background-color: transparent;
+  height: 186px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 244px;
+}
+.home .perfect-gameday-salsa-JbO6OY {
+  background-color: transparent;
+  height: auto;
+  left: 11px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 121px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .profile-3WppY5 {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.home .rectangle-1470-4eduM0 {
+  background-color: var(--white);
+  border-radius: 3px;
+  height: 36px;
+  left: 408px;
+  position: absolute;
+  top: 229px;
+  width: 309px;
+}
+.home .rectangle-1471-Rh39WR {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 204px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 342px;
+}
+.home .rectangle-1471-zUA2mT {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 184px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 244px;
+}
+.home .rectangle-1478-4eduM0 {
+  background-color: rgba(144,22,22,1.0);
+  height: 38px;
+  left: 367px;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+.home .rectangle-1479-zUA2mT {
+  background: linear-gradient(342.05deg, rgba(27, 37, 61, 0.44) 41.46%, rgba(255, 255, 255, 0.09) 86.36%);
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 184px;
+  left: 0px;
+  opacity: 0.44;
+  position: absolute;
+  top: 0px;
+  width: 244px;
+}
+.home .rectangle-1481-eSNWXa {
+  background-color: var(--big-stone);
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 142px;
+  left: 9px;
+  opacity: 1.0;
+  position: absolute;
+  top: 7px;
+  width: 324px;
+}
+.home .rectangle-1482-eSNWXa {
+  background-color: var(--white);
+  border-radius: 3px;
+  height: 24px;
+  left: 123px;
+  position: absolute;
+  top: 101px;
+  width: 97px;
+}
+.home .rectangle-1483-cYXVq0 {
+  background-color: var(--big-stone);
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 196px;
+  left: 0px;
+  opacity: 1.0;
+  position: absolute;
+  top: 0px;
+  width: 324px;
+}
+.home .rectangle-1502-JbO6OY {
+  background-color: transparent;
+  height: 36px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 110px;
+  width: 222px;
+}
+.home .rectangle-1504-XxpA5s {
+  background-color: transparent;
+  height: 36px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 110px;
+  width: 246px;
+}
+.home .rectangle-68-1jzpCK {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.home .rectangle-68-GAj34K {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.home .rectangle-69-1jzpCK {
+  background-color: transparent;
+  height: calc(100.00% - 20px);
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+.home .rectangle-69-GAj34K {
+  background-color: transparent;
+  height: calc(100.00% - 20px);
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+.home .saved-6slTYB {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.home .screen-shot-202-15-at-70157-pm-JbO6OY {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 146px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 222px;
+}
+.home .screen-shot-202-15-at-70830-pm-XxpA5s {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 146px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 221px;
+}
+.home .search-4eduM0 {
+  background-color: transparent;
+  background-image: url(../img/path-99-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 682px;
+  position: absolute;
+  top: 163px;
+  width: 16px;
+}
+.home .search-BJQsbv {
+  background-color: transparent;
+  background-image: url(../img/path-99-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 688px;
+  position: absolute;
+  top: 238px;
+  width: 16px;
+}
+.home .shape-0xdsWN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 2px);
+}
+.home .shape-8fWME2 {
+  background-color: transparent;
+  bottom: calc(47.54% - 5px);
+  height: 11px;
+  object-fit: cover;
+  position: absolute;
+  right: 44px;
+  width: 15px;
+}
+.home .shape-MYXG94 {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 18px;
+}
+.home .shape-Xl8W44 {
+  background-color: transparent;
+  height: 4px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: calc(50.00% - 2px);
+  width: 1px;
+}
+.home .tailgreeter-RH0WJ5 {
+  background-color: transparent;
+  color: var(--big-stone);
+  font-family: 'DIN2014-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 114px;
+  letter-spacing: 3.50px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+.home .union-4-uSsonm {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+.home .what-to-expect-eter-experience-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  margin-right: 53.0px;
+  margin-top: 1px;
+  min-height: 14px;
+  min-width: 271px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.home .x-time-nfqWRg {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: calc(100.00% + 2px);
+}

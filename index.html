@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Tailgreeter</title>
+  </head>
+  <body>
+
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
+  
+  
+  </head>
+
+
+  
+  <body>
+   
+    <div class="container-center-horizontal">
+      <div class="container-center-vertical">
+  
+    <div class="jumbotron">
+
+        <!--Search Bar-->
+      <form class="form-inline" method = "GET" action = "{% url 'search' %}">
+        <div><h1 class="searchTitle">Find a Tailgate</h1> 
+          <input class="searchBar" name="query"  type="text" placeholder=" Ex. Chicago Bears">
+          <p class="lead">
+            <a href class="hostTailgateLink" role="button">Looking to Host a Tailgate?</a>
+          </p>
+        </div>
+        </form>
+      </div>
+  </div>
+</div>
+  
+ </body>
+
+  
+ <div class=".container-fluid">
+
+  <h1 class="nearbyEventTitle">Nearby Events</h1>
+
+    <!-- Games Nearby1 -->
+
+  <div class="column">
+    <div id="card" class="game1" style="width: 18rem;">
+      <img src="images/game1.jpg" class="card-img-top" alt="...">
+      <div class="cardText">
+      <p class="date">Sunday, November 16, 2021</p>
+      <h5 class="name">Bears vs Chiefs  </h5>
+      <p class="card-text">Hosted by: Holly <svg xmlns="http://www.w3.org/2000/svg" width="10.926" height="10.392" viewBox="0 0 10.926 10.392">
+        <path id="iconmonstr-star-3" d="M4.373.587,5.71,3.345l3.036.419L6.536,5.888l.539,3.017L4.373,7.46,1.67,8.905l.54-3.017L0,3.764l3.036-.419Z" transform="translate(1.09 0.559)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      </svg> 4.9</p>
+    </div>
+    </div>
+    </div>
+
+  <!-- Games Nearby2 -->
+
+    <div class="column">
+      <div id="card" class="game2" style="width: 18rem;">
+        <img src="images/game2.jpg" class="card-img-top" alt="...">
+        <div class="cardText">
+        <p class="date">Sunday, November 16, 2021</p>
+        <h5 class="name">Bears vs Chiefs  </h5>
+        <p class="card-text">Hosted by: Holly <svg xmlns="http://www.w3.org/2000/svg" width="10.926" height="10.392" viewBox="0 0 10.926 10.392">
+          <path id="iconmonstr-star-3" d="M4.373.587,5.71,3.345l3.036.419L6.536,5.888l.539,3.017L4.373,7.46,1.67,8.905l.54-3.017L0,3.764l3.036-.419Z" transform="translate(1.09 0.559)" fill="#fff" stroke="#fff" stroke-width="1"/>
+        </svg> 4.9</p>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  
+  <!-- Close row -->
+
+  <div class="row">
+    <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+      <div class="bigCard">
+        <div class="cardText">
+          <h5 class="card-title">Become a Host!</h5>
+          <p class="card-text">Do you have extra spots at your tailgate?
+            Want to make some cash and meet new friends?.</p>
+          <a href="hosts-1.html" class="btn btn-primary">Get Started</a>
+        </div>
+        <img src="images/becomehost.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+
+
+<footer class="footer">
+  <div class="container">
+
+  </div>
+  </div>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <script src="j.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+</div>
+  </body>
+</html>

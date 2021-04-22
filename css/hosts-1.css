@@ -1,0 +1,556 @@
+/* screen - hosts-1 */
+
+.hosts-1 {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 969px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.btn btn-primary {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hosts-1 .background-fbrkPg {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.hosts-1 .bars-status-bar-ight-status-bar-4eduM0 {
+  background-color: transparent;
+  background-image: url(../img/background-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 44px;
+  left: 372px;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+.hosts-1 .bars-time-black-2xURAA {
+  background-color: transparent;
+  height: 18px;
+  left: 7px;
+  position: absolute;
+  top: calc(42.31% - 8px);
+  width: 54px;
+}
+.hosts-1 .battery-2xURAA {
+  background-color: transparent;
+  bottom: calc(46.94% - 5px);
+  height: 11px;
+  position: absolute;
+  right: 15px;
+  width: 24px;
+}
+.hosts-1 .button-C61RwL {
+  background-color: var(--big-stone);
+  border-radius: 4px;
+  flex-shrink: 1;
+  height: 44px;
+  margin-right: 10.0px;
+  margin-top: 23px;
+  position: relative;
+  width: 170px;
+}
+.hosts-1 .button-mSAqpG {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.hosts-1 .cellular-connection-2xURAA {
+  background-color: transparent;
+  background-image: url(../img/shape-14@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  bottom: calc(47.00% - 5px);
+  height: 11px;
+  position: absolute;
+  right: calc(17.97% - 3px);
+  width: 17px;
+}
+.hosts-1 .component-1-npymbN {
+  background-color: transparent;
+  height: 16px;
+  left: 33px;
+  position: absolute;
+  top: calc(50.00% - 8px);
+  width: 16px;
+}
+.hosts-1 .component-33-5-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 21px;
+}
+.hosts-1 .component-34-5-ebBR7z {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: calc(22.78% - 5px);
+  position: absolute;
+  top: 4px;
+  width: 22px;
+}
+.hosts-1 .component-35-5-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  left: calc(48.53% - 18px);
+  position: absolute;
+  top: 0px;
+  width: 37px;
+}
+.hosts-1 .component-36-5-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: calc(25.28% - 6px);
+  top: 0px;
+  width: 23px;
+}
+.hosts-1 .component-37-5-ebBR7z {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 23px;
+}
+.hosts-1 .continue-with-facebook-npymbN {
+  background-color: transparent;
+  bottom: calc(47.14% - 6px);
+  height: 13px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  right: calc(48.86% - 69px);
+  text-align: center;
+  white-space: nowrap;
+  width: 142px;
+}
+.hosts-1 .continue-with-google-4c4jGt {
+  background-color: transparent;
+  bottom: calc(47.14% - 6px);
+  height: 13px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  right: calc(48.94% - 64px);
+  text-align: center;
+  white-space: nowrap;
+  width: 130px;
+}
+.hosts-1 .do-you-have-spo-e-become-a-host-C61RwL {
+  background-color: transparent;
+  color: var(--big-stone);
+  flex-shrink: 1;
+  font-family: 'SFPro-Bold', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-right: 45.0px;
+  margin-top: 19px;
+  min-height: 44px;
+  position: relative;
+  text-align: left;
+  width: 279px;
+}
+.hosts-1 .dsc2857-4eduM0 {
+  background-color: transparent;
+  height: 444px;
+  left: 305px;
+  object-fit: cover;
+  position: absolute;
+  top: 61px;
+  width: 667px;
+}
+.hosts-1 .g-4c4jGt {
+  background-color: transparent;
+  bottom: calc(46.88% - 8px);
+  height: 16px;
+  left: 38px;
+  position: absolute;
+  width: 16px;
+}
+.hosts-1 .group-19-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 39px;
+  margin-top: 19px;
+  position: relative;
+  width: 288px;
+}
+.hosts-1 .home-xfukxI {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.hosts-1 .host-login-gAQaBo {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SFPro-Bold', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.hosts-1 .hosts-are-the-h-r-favorite-team-C61RwL {
+  background-color: transparent;
+  color: rgba(5,21,36,1.0);
+  flex-shrink: 1;
+  font-family: 'SFPro-Medium', Helvetica;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  margin-left: 20.0px;
+  margin-top: 10px;
+  min-height: 56px;
+  min-width: 344px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.hosts-1 .iconmonstr-bookmark-thin-Kno6rU {
+  background-color: transparent;
+  height: 20px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 10px);
+}
+.hosts-1 .iconmonstr-calendar-thin-wpcok7 {
+  background-color: transparent;
+  height: 20px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 17px);
+}
+.hosts-1 .iconmonstr-home-thin-xfukxI {
+  background-color: transparent;
+  height: 20px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 3px);
+}
+.hosts-1 .iconmonstr-mail-thin-wGKTXJ {
+  background-color: transparent;
+  height: 16px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.hosts-1 .iconmonstr-user-male-thin-gPx23W {
+  background-color: transparent;
+  height: 20px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 5px);
+}
+.hosts-1 .inbox-wGKTXJ {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+.hosts-1 .line-10-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-top: 39px;
+  object-fit: cover;
+  position: relative;
+  width: 390px;
+}
+.hosts-1 .login-4eduM0 {
+  background-color: transparent;
+  height: 16px;
+  left: 400px;
+  position: absolute;
+  top: 94px;
+  width: 74px;
+}
+.hosts-1 .login-C61RwL {
+  background-color: transparent;
+  border: 2px solid var(--big-stone);
+  flex-shrink: 1;
+  height: 48px;
+  margin-top: 40px;
+  position: relative;
+  width: 318px;
+}
+.hosts-1 .login-VMr6Om {
+  background-color: transparent;
+  border: 2px solid var(--big-stone);
+  flex-shrink: 1;
+  height: 48px;
+  margin-top: 19px;
+  position: relative;
+  width: 318px;
+}
+.hosts-1 .menu-s0G3Gy {
+  background-color: transparent;
+  bottom: calc(30.77% - 5px);
+  height: 16px;
+  left: 16px;
+  position: absolute;
+  width: 16px;
+}
+.hosts-1 .my-events-wpcok7 {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.hosts-1 .navigation-bar-4eduM0 {
+  background-color: transparent;
+  height: 68px;
+  left: 373px;
+  position: absolute;
+  top: 27px;
+  width: 375px;
+}
+.hosts-1 .navigation-bar-BJQsbv {
+  background-color: transparent;
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 272px;
+  width: 375px;
+}
+.hosts-1 .overlap-group-C61RwL {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 505px;
+  margin-left: -367px;
+  position: relative;
+  width: 972px;
+}
+.hosts-1 .path-1-xqEaqt {
+  background-color: transparent;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: calc(47.67% - 4px);
+  top: 0px;
+  width: 8px;
+}
+.hosts-1 .path-51-gPyLJF {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 100%;
+}
+.hosts-1 .profile-gPx23W {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.hosts-1 .rectangle-68-GAj34K {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.hosts-1 .rectangle-68-s0G3Gy {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.hosts-1 .rectangle-69-GAj34K {
+  background-color: transparent;
+  height: calc(100.00% - 20px);
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+.hosts-1 .rectangle-69-s0G3Gy {
+  background-color: transparent;
+  height: calc(100.00% - 20px);
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+.hosts-1 .saved-Kno6rU {
+  background-color: transparent;
+  bottom: -2px;
+  height: 10px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.hosts-1 .shape-2xURAA {
+  background-color: transparent;
+  bottom: calc(47.54% - 5px);
+  height: 11px;
+  object-fit: cover;
+  position: absolute;
+  right: 44px;
+  width: 15px;
+}
+.hosts-1 .shape-5Yzsi0 {
+  background-color: transparent;
+  height: 4px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: calc(50.00% - 2px);
+  width: 1px;
+}
+.hosts-1 .shape-So1WeD {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 18px;
+}
+.hosts-1 .shape-SvIT7d {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 2px);
+}
+.hosts-1 .sign-up-to-become-a-host-xHxYv9 {
+  background-color: transparent;
+  bottom: calc(42.86% - 7px);
+  color: var(--white);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  height: 16px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: absolute;
+  right: calc(45.45% - 67px);
+  text-align: center;
+  white-space: nowrap;
+  width: 148px;
+}
+.hosts-1 .union-4-ewHVMw {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+.hosts-1 .we-love-ourhosts-the-most-4eduM0 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SFPro-Bold', Helvetica;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 400px;
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 175px;
+  white-space: nowrap;
+  width: auto;
+}
+.hosts-1 .x-time-fbrkPg {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: calc(100.00% + 2px);
+}
